@@ -10,7 +10,7 @@ Aws Lambda coding standards (Local to Server)
     (for running aws lambda function locally)
 
     to get more info :
-    [click here](https://github.com/shuvojit-tps/lambda_docs/blob/master/notes/running_locally.md)
+    <a href="https://github.com/shuvojit-tps/lambda_docs/blob/master/notes/running_locally.md" target="_blank">Click here</a>
 
 - Add individual Layer in Aws to use any 3rd party packages, if required.( which are not preinstalled in aws).
 
@@ -19,7 +19,7 @@ Aws Lambda coding standards (Local to Server)
     ( where pymysql is the name of the package and it is compatible with python 3.6x version ) 
 
     to make the package follow the instruction:
-    [click here](https://github.com/shuvojit-tps/lambda_docs/blob/master/notes/layers.md#1-using-layers-to-seperate-code-and-dependencies)
+    <a href="https://github.com/shuvojit-tps/lambda_docs/blob/master/notes/layers.md#1-using-layers-to-seperate-code-and-dependencies" target="_blank">Click here</a>
 
 - Use Db connection from parameter ( from Aws console , System Manager > Parameter Store ) , which is already defined    
 - Naming convention ( always use snake case )
